@@ -1,20 +1,14 @@
-# Core
-numpy
-pandas
+# Software
+# Python 3.12 (Anaconda distribution)
+# Jupyter Notebook - used to run Education_final.ipynb
 
-# Visualization
-matplotlib
-seaborn
-
-
-# Machine Learning
-scikit-learn
-statsmodels
-
-
-# Jupyter & Development
-jupyter
-notebook
-ipython
-
-
+# Python libraries
+pandas        # loading, cleaning, joining, and exporting the data
+openpyxl      # reading the EdGap Excel file with pandas
+numpy         # replacing impossible values with NaN and calculating RMSE
+matplotlib    # plot labels, residual plots, and figure settings
+seaborn       # pair plots and regression plots
+plotly        # map of the number of schools in each state
+scikit-learn  # iterative imputer, standard scaler, and error metrics (MAE, MSE)
+statsmodels   # linear regression models and ANOVA F-tests
+scipy         # imported with the statistics libraries
